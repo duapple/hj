@@ -1,0 +1,27 @@
+--cpu Cortex-M0
+".\release\objects\clock.o"
+".\release\objects\context_switch.o"
+".\release\objects\miscutil.o"
+".\release\objects\osal.o"
+".\release\objects\sleep.o"
+".\release\objects\bluenrg1_flash.o"
+".\release\objects\bluenrg1_gpio.o"
+".\release\objects\bluenrg1_pka.o"
+".\release\objects\bluenrg1_sysctrl.o"
+".\release\objects\bluenrg1_uart.o"
+".\release\objects\misc.o"
+".\release\objects\ota_btl.o"
+".\release\objects\sdk_eval_com.o"
+".\release\objects\sdk_eval_config.o"
+".\release\objects\sdk_eval_led.o"
+"../../../../../Library/Bluetooth_LE/library/libbluenrg1_stack.a"
+"../../../../../Library/cryptolib/libcrypto.a"
+".\release\objects\stack_user_cfg.o"
+".\release\objects\system_bluenrg1.o"
+".\release\objects\bluenrg1_it_stub.o"
+".\release\objects\ota_servicemanager.o"
+".\release\objects\ota_servicemanager_main.o"
+--library_type=microlib --diag_suppress 6314,6329 --strict --scatter "BlueNRG2.sct"
+--predefine=-DMEMORY_FLASH_APP_SIZE=0x11800 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Release\Listings\BLE_OTA_ServiceManager.map" -o .\Release\Objects\BLE_OTA_ServiceManager.axf

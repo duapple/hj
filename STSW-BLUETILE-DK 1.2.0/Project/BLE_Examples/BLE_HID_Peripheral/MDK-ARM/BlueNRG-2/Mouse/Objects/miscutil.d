@@ -1,0 +1,15 @@
+.\mouse\objects\miscutil.o: ../../../../../Library/hal/src/miscutil.c
+.\mouse\objects\miscutil.o: ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h
+.\mouse\objects\miscutil.o: ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h
+.\mouse\objects\miscutil.o: ..\..\..\..\..\Library\CMSIS\Include\core_cm0.h
+.\mouse\objects\miscutil.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\mouse\objects\miscutil.o: ..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h
+.\mouse\objects\miscutil.o: ..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h
+.\mouse\objects\miscutil.o: ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h
+.\mouse\objects\miscutil.o: ..\..\..\..\..\Library\hal\inc\compiler.h
+.\mouse\objects\miscutil.o: ..\..\..\..\..\Library\hal\inc\hal_types.h
+.\mouse\objects\miscutil.o: ..\..\..\..\..\Library\CMSIS\Include\core_cm0.h
+.\mouse\objects\miscutil.o: ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h
+.\mouse\objects\miscutil.o: ..\..\..\..\..\Library\hal\inc\miscutil.h
+.\mouse\objects\miscutil.o: ..\..\..\..\..\Library\hal\inc\crash_handler.h
+.\mouse\objects\miscutil.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
