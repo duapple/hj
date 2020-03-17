@@ -1,0 +1,9 @@
+[submodule "STSW-BLUETILE-DK 1.2.0/Project/BLE_Examples/BLE_Chat"]
+	path = STSW-BLUETILE-DK 1.2.0/Project/BLE_Examples/BLE_Chat
+	url = https://github.com/duapple/BLE_Chat.git
+[submodule "STSW-BLUETILE-DK 1.2.0/Project/BLE_Examples/BLE_Beacon"]
+	path = STSW-BLUETILE-DK 1.2.0/Project/BLE_Examples/BLE_Beacon
+	url = https://github.com/duapple/BLE_Beacon.git
+[submodule "STSW-BLUETILE-DK 1.2.0/Project/BLE_Examples/BLE_SensorDemo"]
+	path = STSW-BLUETILE-DK 1.2.0/Project/BLE_Examples/BLE_SensorDemo
+	url = https://github.com/duapple/BLE_SensorDemo.git
