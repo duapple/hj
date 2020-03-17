@@ -1,0 +1,557 @@
+Dependencies for Project 'BLE_Beacon', Target 'Release': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (../../../../../Library/hal/src/clock.c)(0x5C9AEAC8)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\clock.o --omf_browse .\release\objects\clock.crf --depend .\release\objects\clock.d)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h)(0x5DDC9D61)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5B35F054)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\compiler.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\hal_types.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h)(0x5C124500)
+I (..\..\inc\BlueNRG1_conf.h)(0x5C90488E)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_flash.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_gpio.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_dma.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_i2c.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_adc.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_uart.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_sysCtrl.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\misc.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\hal\inc\clock.h)(0x5C124500)
+F (../../../../../Library/hal/src/context_switch.s)(0x5C124500)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1" --cpreproc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 529"--list .\release\listings\context_switch.lst --xref -o .\release\objects\context_switch.o --depend .\release\objects\context_switch.d)
+F (../../../../../Library/hal/src/miscutil.c)(0x5C124500)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\miscutil.o --omf_browse .\release\objects\miscutil.crf --depend .\release\objects\miscutil.d)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h)(0x5DDC9D61)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5B35F054)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\compiler.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\hal_types.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\miscutil.h)(0x5DDE0DFB)
+I (..\..\..\..\..\Library\hal\inc\crash_handler.h)(0x5C124500)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+F (../../../../../Library/hal/src/osal.c)(0x5C124500)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\osal.o --omf_browse .\release\objects\osal.crf --depend .\release\objects\osal.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\hal\inc\osal.h)(0x5DDE0B03)
+F (../../../../../Library/hal/src/sleep.c)(0x5C124500)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\sleep.o --omf_browse .\release\objects\sleep.crf --depend .\release\objects\sleep.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h)(0x5DDC9D61)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\compiler.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\hal_types.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h)(0x5C124500)
+I (..\..\inc\BlueNRG1_conf.h)(0x5C90488E)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_flash.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_gpio.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_dma.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_i2c.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_adc.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_uart.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_sysCtrl.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\misc.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\hal\inc\sleep.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\miscutil.h)(0x5DDE0DFB)
+I (..\..\..\..\..\Library\hal\inc\crash_handler.h)(0x5C124500)
+F (../../../../../Library/BlueNRG1_Periph_Driver/src/BlueNRG1_adc.c)(0x5C1244FE)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\bluenrg1_adc.o --omf_browse .\release\objects\bluenrg1_adc.crf --depend .\release\objects\bluenrg1_adc.d)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_adc.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h)(0x5DDC9D61)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5B35F054)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\compiler.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\hal_types.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h)(0x5C124500)
+F (../../../../../Library/BlueNRG1_Periph_Driver/src/BlueNRG1_dma.c)(0x5C1244FE)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\bluenrg1_dma.o --omf_browse .\release\objects\bluenrg1_dma.crf --depend .\release\objects\bluenrg1_dma.d)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_dma.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h)(0x5DDC9D61)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5B35F054)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\compiler.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\hal_types.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h)(0x5C124500)
+F (../../../../../Library/BlueNRG1_Periph_Driver/src/BlueNRG1_flash.c)(0x5C1244FE)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\bluenrg1_flash.o --omf_browse .\release\objects\bluenrg1_flash.crf --depend .\release\objects\bluenrg1_flash.d)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_flash.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h)(0x5DDC9D61)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5B35F054)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\compiler.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\hal_types.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h)(0x5C124500)
+F (../../../../../Library/BlueNRG1_Periph_Driver/src/BlueNRG1_gpio.c)(0x5C1244FE)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\bluenrg1_gpio.o --omf_browse .\release\objects\bluenrg1_gpio.crf --depend .\release\objects\bluenrg1_gpio.d)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_gpio.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h)(0x5DDC9D61)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5B35F054)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\compiler.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\hal_types.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h)(0x5C124500)
+F (../../../../../Library/BlueNRG1_Periph_Driver/src/BlueNRG1_i2c.c)(0x5C1244FE)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\bluenrg1_i2c.o --omf_browse .\release\objects\bluenrg1_i2c.crf --depend .\release\objects\bluenrg1_i2c.d)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_i2c.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h)(0x5DDC9D61)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5B35F054)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\compiler.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\hal_types.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h)(0x5C124500)
+F (../../../../../Library/BlueNRG1_Periph_Driver/src/BlueNRG1_mft.c)(0x5C1244FE)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\bluenrg1_mft.o --omf_browse .\release\objects\bluenrg1_mft.crf --depend .\release\objects\bluenrg1_mft.d)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_mft.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h)(0x5DDC9D61)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5B35F054)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\compiler.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\hal_types.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h)(0x5C124500)
+F (../../../../../Library/BlueNRG1_Periph_Driver/src/BlueNRG1_pka.c)(0x5C1244FE)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\bluenrg1_pka.o --omf_browse .\release\objects\bluenrg1_pka.crf --depend .\release\objects\bluenrg1_pka.d)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_pka.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h)(0x5DDC9D61)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5B35F054)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\compiler.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\hal_types.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\osal.h)(0x5DDE0B03)
+F (../../../../../Library/BlueNRG1_Periph_Driver/src/BlueNRG1_rtc.c)(0x5C1244FE)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\bluenrg1_rtc.o --omf_browse .\release\objects\bluenrg1_rtc.crf --depend .\release\objects\bluenrg1_rtc.d)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_rtc.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h)(0x5DDC9D61)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5B35F054)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\compiler.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\hal_types.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h)(0x5C124500)
+F (../../../../../Library/BlueNRG1_Periph_Driver/src/BlueNRG1_spi.c)(0x5C1244FE)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\bluenrg1_spi.o --omf_browse .\release\objects\bluenrg1_spi.crf --depend .\release\objects\bluenrg1_spi.d)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_spi.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h)(0x5DDC9D61)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5B35F054)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\compiler.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\hal_types.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h)(0x5C124500)
+F (../../../../../Library/BlueNRG1_Periph_Driver/src/BlueNRG1_sysCtrl.c)(0x5C1244FE)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\bluenrg1_sysctrl.o --omf_browse .\release\objects\bluenrg1_sysctrl.crf --depend .\release\objects\bluenrg1_sysctrl.d)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_sysCtrl.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h)(0x5DDC9D61)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5B35F054)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\compiler.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\hal_types.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h)(0x5C124500)
+F (../../../../../Library/BlueNRG1_Periph_Driver/src/BlueNRG1_uart.c)(0x5C1244FE)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\bluenrg1_uart.o --omf_browse .\release\objects\bluenrg1_uart.crf --depend .\release\objects\bluenrg1_uart.d)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_uart.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h)(0x5DDC9D61)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5B35F054)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\compiler.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\hal_types.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h)(0x5C124500)
+F (../../../../../Library/BlueNRG1_Periph_Driver/src/BlueNRG1_wdg.c)(0x5C1244FE)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\bluenrg1_wdg.o --omf_browse .\release\objects\bluenrg1_wdg.crf --depend .\release\objects\bluenrg1_wdg.d)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_wdg.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h)(0x5DDC9D61)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5B35F054)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\compiler.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\hal_types.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h)(0x5C124500)
+F (../../../../../Library/BlueNRG1_Periph_Driver/src/misc.c)(0x5C1244FE)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\misc.o --omf_browse .\release\objects\misc.crf --depend .\release\objects\misc.d)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\misc.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h)(0x5DDC9D61)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5B35F054)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\compiler.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\hal_types.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h)(0x5C124500)
+F (../../../../../Library/BLE_Application/OTA/src/OTA_btl.c)(0x5C8A0224)()
+F (../../../../../Library/SDK_Eval_BlueNRG1/src/SDK_EVAL_Com.c)(0x5AC6F2C2)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\sdk_eval_com.o --omf_browse .\release\objects\sdk_eval_com.crf --depend .\release\objects\sdk_eval_com.d)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Com.h)(0x5AC6F2C2)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h)(0x5DDC9D61)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5B35F054)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\compiler.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\hal_types.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h)(0x5C124500)
+I (..\..\inc\BlueNRG1_conf.h)(0x5C90488E)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_flash.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_gpio.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_dma.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_i2c.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_adc.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_uart.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_sysCtrl.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\misc.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Config.h)(0x5BA1ED7A)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\USER_Platform_Configuration.h)(0x5B349726)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Button.h)(0x5AC6F2C2)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_I2C.h)(0x5B3093D2)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Led.h)(0x5B349788)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+F (../../../../../Library/SDK_Eval_BlueNRG1/src/SDK_EVAL_Config.c)(0x5B34952E)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\sdk_eval_config.o --omf_browse .\release\objects\sdk_eval_config.crf --depend .\release\objects\sdk_eval_config.d)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h)(0x5DDC9D61)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5B35F054)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\compiler.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\hal_types.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h)(0x5C124500)
+I (..\..\inc\BlueNRG1_conf.h)(0x5C90488E)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_flash.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_gpio.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_dma.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_i2c.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_adc.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_uart.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_sysCtrl.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\misc.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Config.h)(0x5BA1ED7A)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\USER_Platform_Configuration.h)(0x5B349726)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Com.h)(0x5AC6F2C2)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Button.h)(0x5AC6F2C2)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_I2C.h)(0x5B3093D2)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Led.h)(0x5B349788)
+F (../../../../../Library/SDK_Eval_BlueNRG1/src/SDK_EVAL_Led.c)(0x5B349A46)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\sdk_eval_led.o --omf_browse .\release\objects\sdk_eval_led.crf --depend .\release\objects\sdk_eval_led.d)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Led.h)(0x5B349788)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h)(0x5DDC9D61)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5B35F054)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\compiler.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\hal_types.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h)(0x5C124500)
+I (..\..\inc\BlueNRG1_conf.h)(0x5C90488E)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_flash.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_gpio.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_dma.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_i2c.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_adc.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_uart.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_sysCtrl.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\misc.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Config.h)(0x5BA1ED7A)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\USER_Platform_Configuration.h)(0x5B349726)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Com.h)(0x5AC6F2C2)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Button.h)(0x5AC6F2C2)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_I2C.h)(0x5B3093D2)
+F (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_I2C.c)(0x5B4E9A38)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\sdk_eval_i2c.o --omf_browse .\release\objects\sdk_eval_i2c.crf --depend .\release\objects\sdk_eval_i2c.d)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_I2C.h)(0x5B3093D2)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h)(0x5DDC9D61)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5B35F054)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\compiler.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\hal_types.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h)(0x5C124500)
+I (..\..\inc\BlueNRG1_conf.h)(0x5C90488E)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_flash.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_gpio.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_dma.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_i2c.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_adc.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_uart.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_sysCtrl.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\misc.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Config.h)(0x5BA1ED7A)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\USER_Platform_Configuration.h)(0x5B349726)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Com.h)(0x5AC6F2C2)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Button.h)(0x5AC6F2C2)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Led.h)(0x5B349788)
+F (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\HTS221.c)(0x5977069C)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\hts221.o --omf_browse .\release\objects\hts221.crf --depend .\release\objects\hts221.d)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\HTS221.h)(0x597706FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\HTS221_hal.h)(0x5B3473E2)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_I2C.h)(0x5B3093D2)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h)(0x5DDC9D61)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\compiler.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\hal_types.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h)(0x5C124500)
+I (..\..\inc\BlueNRG1_conf.h)(0x5C90488E)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_flash.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_gpio.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_dma.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_i2c.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_adc.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_uart.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_sysCtrl.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\misc.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Config.h)(0x5BA1ED7A)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\USER_Platform_Configuration.h)(0x5B349726)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Com.h)(0x5AC6F2C2)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Button.h)(0x5AC6F2C2)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Led.h)(0x5B349788)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+F (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\LIS2MDL.c)(0x5B14F2BA)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\lis2mdl.o --omf_browse .\release\objects\lis2mdl.crf --depend .\release\objects\lis2mdl.d)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\LIS2MDL.h)(0x5B14F4D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\LIS2MDL_hal.h)(0x5B14F44E)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_I2C.h)(0x5B3093D2)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h)(0x5DDC9D61)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\compiler.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\hal_types.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h)(0x5C124500)
+I (..\..\inc\BlueNRG1_conf.h)(0x5C90488E)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_flash.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_gpio.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_dma.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_i2c.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_adc.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_uart.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_sysCtrl.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\misc.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Config.h)(0x5BA1ED7A)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\USER_Platform_Configuration.h)(0x5B349726)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Com.h)(0x5AC6F2C2)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Button.h)(0x5AC6F2C2)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Led.h)(0x5B349788)
+F (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\LPS22HH.c)(0x5CB96402)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\lps22hh.o --omf_browse .\release\objects\lps22hh.crf --depend .\release\objects\lps22hh.d)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\LPS22HH.h)(0x5CB95A86)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\LPS22HH_hal.h)(0x5B179D14)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_I2C.h)(0x5B3093D2)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h)(0x5DDC9D61)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\compiler.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\hal_types.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h)(0x5C124500)
+I (..\..\inc\BlueNRG1_conf.h)(0x5C90488E)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_flash.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_gpio.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_dma.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_i2c.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_adc.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_uart.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_sysCtrl.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\misc.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Config.h)(0x5BA1ED7A)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\USER_Platform_Configuration.h)(0x5B349726)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Com.h)(0x5AC6F2C2)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Button.h)(0x5AC6F2C2)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Led.h)(0x5B349788)
+F (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\LSM6DSO.c)(0x5B286A5A)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\lsm6dso.o --omf_browse .\release\objects\lsm6dso.crf --depend .\release\objects\lsm6dso.d)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\LSM6DSO.h)(0x5B4EBE06)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\LSM6DSO_hal.h)(0x5B4E9A22)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_I2C.h)(0x5B3093D2)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h)(0x5DDC9D61)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\compiler.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\hal_types.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h)(0x5C124500)
+I (..\..\inc\BlueNRG1_conf.h)(0x5C90488E)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_flash.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_gpio.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_dma.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_i2c.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_adc.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_uart.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_sysCtrl.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\misc.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Config.h)(0x5BA1ED7A)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\USER_Platform_Configuration.h)(0x5B349726)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Com.h)(0x5AC6F2C2)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Button.h)(0x5AC6F2C2)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Led.h)(0x5B349788)
+F (../../../../../Library/Bluetooth_LE/library/libbluenrg1_stack.a)(0x5C1244FE)()
+F (../../../../../Library/cryptolib/libcrypto.a)(0x5C1244FE)()
+F (../../../../../Library/Bluetooth_LE/src/stack_user_cfg.c)(0x5C1244FE)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\stack_user_cfg.o --omf_browse .\release\objects\stack_user_cfg.crf --depend .\release\objects\stack_user_cfg.d)
+I (..\..\..\..\..\Library\Bluetooth_LE\inc\bluenrg1_api.h)(0x5C1244FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\hal\inc\hal_types.h)(0x5C124500)
+I (..\..\..\..\..\Library\Bluetooth_LE\inc\stack_user_cfg.h)(0x5C1244FE)
+F (../../../../../Library/CMSIS/Device/ST/BlueNRG1/Source/system_bluenrg1.c)(0x5DDDCD76)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\system_bluenrg1.o --omf_browse .\release\objects\system_bluenrg1.crf --depend .\release\objects\system_bluenrg1.d)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h)(0x5DDC9D61)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5B35F054)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\compiler.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\hal_types.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h)(0x5C124500)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BluenRG1_flash.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\misc.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\hal\inc\miscutil.h)(0x5DDE0DFB)
+I (..\..\..\..\..\Library\hal\inc\crash_handler.h)(0x5C124500)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_sysCtrl.h)(0x5C1244FE)
+F (../../src/BLE_Beacon_main.c)(0x5C949478)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\ble_beacon_main.o --omf_browse .\release\objects\ble_beacon_main.crf --depend .\release\objects\ble_beacon_main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (..\..\inc\BlueNRG1_it.h)(0x5C124526)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h)(0x5DDC9D61)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5B35F054)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\compiler.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\hal_types.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h)(0x5C124500)
+I (..\..\inc\BlueNRG1_conf.h)(0x5C90488E)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_flash.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_gpio.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_dma.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_i2c.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_adc.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_uart.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_sysCtrl.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\misc.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BLE_Application\layers_inc\ble_const.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\Bluetooth_LE\inc\ble_status.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\Bluetooth_LE\inc\bluenrg1_api.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BLE_Application\layers_inc\bluenrg1_hal.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BLE_Application\layers_inc\bluenrg1_gap.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BLE_Application\layers_inc\link_layer.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BLE_Application\layers_inc\bluenrg1_gatt_server.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BLE_Application\layers_inc\sm.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\Bluetooth_LE\inc\bluenrg1_stack.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\Bluetooth_LE\inc\bluenrg1_events.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\hal\inc\sleep.h)(0x5C124500)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Config.h)(0x5BA1ED7A)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\USER_Platform_Configuration.h)(0x5B349726)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Com.h)(0x5AC6F2C2)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Button.h)(0x5AC6F2C2)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_I2C.h)(0x5B3093D2)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Led.h)(0x5B349788)
+I (..\..\inc\Beacon_config.h)(0x5C124526)
+I (..\..\..\..\..\Library\Bluetooth_LE\inc\stack_user_cfg.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BLE_Application\OTA\inc\OTA_btl.h)(0x5C8A0234)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\LPS22HH.h)(0x5CB95A86)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\LPS22HH_hal.h)(0x5B179D14)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\LSM6DSO.h)(0x5B4EBE06)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\LSM6DSO_hal.h)(0x5B4E9A22)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\HTS221.h)(0x597706FE)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\HTS221_hal.h)(0x5B3473E2)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\LIS2MDL.h)(0x5B14F4D6)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\LIS2MDL_hal.h)(0x5B14F44E)
+F (../../src/BlueNRG1_it.c)(0x5C91B47A)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -I ..\..\inc -I ..\..\..\..\..\Library\hal\inc -I ..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc -I ..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include -I ..\..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\..\Library\Bluetooth_LE\inc -I ..\..\..\..\..\Library\BLE_Application\layers_inc -I ..\..\..\..\..\Library\BLE_Application\Utils\inc -I ..\..\..\..\..\Library\BLE_Application\OTA\inc -I ..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc-I.\RTE\_Release-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLS_SOURCE="LS_SOURCE_EXTERNAL_32KHZ" -DSMPS_INDUCTOR="SMPS_INDUCTOR_10uH" -DBLUENRG2_DEVICE -DHS_SPEED_XTAL="HS_SPEED_XTAL_32MHZ" -DFORCE_CORE_TO_16MHZ="1"-o .\release\objects\bluenrg1_it.o --omf_browse .\release\objects\bluenrg1_it.crf --depend .\release\objects\bluenrg1_it.d)
+I (..\..\inc\BlueNRG1_it.h)(0x5C124526)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h)(0x5DDC9D61)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5B35F054)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5B35F054)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\compiler.h)(0x5C124500)
+I (..\..\..\..\..\Library\hal\inc\hal_types.h)(0x5C124500)
+I (..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h)(0x5C124500)
+I (..\..\inc\BlueNRG1_conf.h)(0x5C90488E)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_flash.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_gpio.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_dma.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_i2c.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_adc.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_uart.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_sysCtrl.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\misc.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BLE_Application\layers_inc\ble_const.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\Bluetooth_LE\inc\ble_status.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\Bluetooth_LE\inc\bluenrg1_api.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BLE_Application\layers_inc\bluenrg1_hal.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BLE_Application\layers_inc\bluenrg1_gap.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BLE_Application\layers_inc\link_layer.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BLE_Application\layers_inc\bluenrg1_gatt_server.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\BLE_Application\layers_inc\sm.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\Bluetooth_LE\inc\bluenrg1_stack.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\Bluetooth_LE\inc\bluenrg1_events.h)(0x5C1244FE)
+I (..\..\..\..\..\Library\hal\inc\clock.h)(0x5C124500)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Led.h)(0x5B349788)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Config.h)(0x5BA1ED7A)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\USER_Platform_Configuration.h)(0x5B349726)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Com.h)(0x5AC6F2C2)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Button.h)(0x5AC6F2C2)
+I (..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_I2C.h)(0x5B3093D2)
